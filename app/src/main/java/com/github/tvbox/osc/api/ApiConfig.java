@@ -131,7 +131,7 @@ public class ApiConfig {
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
         // Embedded Source : Update in Strings.xml if required
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://github.ednovas.xyz/https://raw.githubusercontent.com/bgvioletsky/BGBox_warehouse/master/json/api.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://1.2.3.4");
         if (apiUrl.isEmpty()) {
             callback.error("源地址为空");
             return;
