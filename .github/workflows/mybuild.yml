@@ -2,7 +2,7 @@ name: mybuild
 
 on:
   schedule:
-    - cron: 6 */8 * * *
+#    - cron: 6 */8 * * *
 #  push:
 #    branches:
 #      - main
